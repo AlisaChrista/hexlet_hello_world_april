@@ -7,3 +7,9 @@ requires-python = ">=3.13"
 dependencies = [
     "more-itertools>=11.0.2",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+    "ruff>=0.15.12",
+]
